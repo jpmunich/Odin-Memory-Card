@@ -1,0 +1,23 @@
+.pokemon-card-container {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 4px;
+  width: 180px;
+  height: 230px;
+  transition: 1s;
+}
+
+.pokemon-card-container:hover {
+  background-color: rgb(0, 0, 0, 0.7);
+  transform: rotate3d(2, 6, 1, 20deg);
+}
+
+.pokemon-image {
+  width: 100%;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  color: whitesmoke;
+}
